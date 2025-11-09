@@ -1,4 +1,18 @@
+header {
+    background-color: rgb(47, 47, 47);
+    color: black;
+}
+
 body {
-    background-color: indigo;
+    background-color: black;
     color: white;
+}
+
+footer {
+    background-color: rgb(47, 47, 47);
+    color: gray;
+}
+
+a {
+    color: dodgerblue;
 }
