@@ -1,6 +1,5 @@
 * {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: 500;
 }
 
 body {
@@ -34,4 +33,9 @@ a {
 
 .paragrafo-destaque {
     color: #50232Cff;
+}
+
+.apresentacao {
+    display: flex;
+    align-items: center;
 }
