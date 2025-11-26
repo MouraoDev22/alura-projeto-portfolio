@@ -55,6 +55,10 @@ body {
 }
 
 .apresentacao__links__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
     text-decoration: none;
     color: #50232Cff;
     width: 378px;
@@ -70,6 +74,9 @@ body {
 }
 
 .apresentacao__links__link:hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
     color: #CBB0A2ff;
     width: 378px;
@@ -94,7 +101,7 @@ body {
 }
 
 .apresentacao__conteudo__paragrafo__html:hover {
-    color: #CBB0A2ff;
+    color: rgb(203, 176, 162);
     border: 3px inset #CBB0A2ff;
     transition: 0.1s;
 }
@@ -104,7 +111,4 @@ body {
     font-size: 24px;
     font-family: "Krona One", sans-serif;
     font-weight: 400;
-}
-.apresentacao__icones {
-    color: #CBB0A2ff;
 }
