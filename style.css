@@ -74,19 +74,8 @@ body {
 }
 
 .apresentacao__links__link:hover {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
     color: #CBB0A2ff;
-    width: 378px;
-    text-align: center;
     border: 3px solid #CBB0A2ff;
-    border-radius: 8px;
-    font-size: 24px;
-    padding: 21.5px 0;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
     transition: 0.1s;
 }
 
