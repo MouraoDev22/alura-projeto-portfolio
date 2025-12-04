@@ -28,14 +28,13 @@ body {
     text-decoration: none;
     color: var(--cor-secundaria);
     font-family: var(--fonte-paragrafo);
-    font-size: 0.9375rem;
+    font-size: 0.9375rem; /* 15px */
     font-weight: 400;
     transition: 0.1s;
 }
 
 .cabecalho__menu__link:hover {
     color: var(--cor-terciaria);
-    transition: 0.1s;
 }
 
 .apresentacao {
@@ -47,7 +46,6 @@ body {
 }
 
 .apresentacao__conteudo {
-    width: 65%;
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
@@ -55,7 +53,7 @@ body {
 
 .apresentacao__conteudo__titulo {
     color: var(--cor-secundaria);
-    font-size: 2.25rem;
+    font-size: 2.25rem; /* 36px */
     font-weight: 400;
     font-family: var(--fonte-titulo);
     text-align: justify;
@@ -67,7 +65,7 @@ body {
 
 .apresentacao__conteudo__paragrafo {
     color: var(--cor-secundaria);
-    font-size: 1.5rem;
+    font-size: 1.5rem; /* 24px */
     font-weight: 400;
     font-family: var(--fonte-paragrafo);
     font-optical-sizing: auto;
@@ -89,7 +87,7 @@ body {
 
 .apresentacao__links__subtitulo {
     color: var(--cor-secundaria);
-    font-size: 1.5rem;
+    font-size: 1.5rem; /* 24px */
     font-family: var(--fonte-titulo);
     font-weight: 400;
 }
@@ -104,20 +102,19 @@ body {
     width: 50%;
     text-align: center;
     border: 0.1875rem solid var(--cor-secundaria);
-    border-radius: 0.5rem;
-    font-size: 1.5rem;
+    border-radius: 0.5rem; /* 8px */
+    font-size: 1.5rem; /* 24px */
     padding: 1.34375rem 0;
     font-family: var(--fonte-paragrafo);
     font-weight: 600;
     cursor: pointer;
-    transition: 0.1s;
+    transition: 0.1s ease-in-out;
 }
 
 .apresentacao__links__link:hover {
     color: var(--cor-terciaria);
-    border: 0.1875rem solid var(--cor-terciaria);
+    border-color: var(--cor-terciaria);
     background-color: var(--cor-hover);
-    transition: 0.1s;
 }
 
 .apresentacao__imagem {
@@ -130,7 +127,7 @@ body {
     background-color: var(--cor-terciaria);
     color: var(--cor-primaria);
     font-family: var(--fonte-paragrafo);
-    font-size: 1.5rem;
+    font-size: 1.5rem; /* 24px */
     font-weight: 400;
     text-align: center;
     padding: 1.5rem;
@@ -149,7 +146,7 @@ body {
     align-items: center;
     justify-content: space-between;
     gap: 1.875rem;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .apresentacao__conteudo__artigo {
@@ -167,7 +164,7 @@ body {
 .apresentacao__conteudo__artigo__link__titulo {
     color: var(--cor-terciaria);
     font-family: var(--fonte-titulo);
-    font-size: 1.25rem;
+    font-size: 1.25rem; /* 20px */
 }
 
 .apresentacao__conteudo__artigo__link__descricao {
