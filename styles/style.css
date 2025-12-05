@@ -9,6 +9,12 @@
     --fonte-paragrafo: "Montserrat", sans-serif;
 }
 
+@media (max-width: 1200px) {
+    .apresentacao {
+        flex-direction: column-reverse;
+    }
+}
+
 body {
     box-sizing: border-box;
     background-color: var(--cor-primaria);
@@ -42,7 +48,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 1.875rem;
+    gap: 5.125rem;
 }
 
 .apresentacao__conteudo {
