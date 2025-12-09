@@ -2,8 +2,6 @@
 
 # Portfólio Olá, Bem vindo ao meu projeto de portfólio.
 
-<img width="1250" height="625" alt="image" src="https://github.com/user-attachments/assets/b2bb6bac-85c8-4833-ab20-9f6afabcf16b" />
-
 ## Ferramentas utilizadas:
 
 * HTML
